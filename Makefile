@@ -1,4 +1,4 @@
-all: build push
+all: build
 
 build:
 	docker build . -t winebarrel/rtail
